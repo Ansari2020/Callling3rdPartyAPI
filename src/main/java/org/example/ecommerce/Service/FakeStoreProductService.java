@@ -49,8 +49,9 @@ public class FakeStoreProductService implements ProductService{
 
         if(fakeStoreProductDto==null)
             return null;
-
+// return statement
         return fakeStoreProductDtoToProduct(fakeStoreProductDto);
+
     }
 
     @Override
